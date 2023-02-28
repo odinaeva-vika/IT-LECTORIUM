@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20230301022655">
+  <title>Главная</title>
+</head>
+<body>
+  <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="#">
+        <img src="img/logo.svg" alt="Логотип">
+      </a>
+      <nav class="menu" data-nav>
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#first">Материалы</a></li>
+          <li class="menu__item"><a class="menu__link" href="#!">Вебинары</a></li>
+          <li class="menu__item"><a class="menu__link" href="#!">Форум</a></li>
+        </ul>
+
+        <div class="header-burger__box">
+          <button class="header__btn-enter">Войти</button>
+          <button class="header__btn-registration">Регистрация</button>
+        </div>
+      </nav>
+      
+      <button type="button" class="menu-icon" aria-label="Открыть меню" data-burger>
+        <div class="menu-icon__line"></div>
+      </button>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="promo">
+      <div class="container">
+        <div class="promo__inner">
+          <div class="promo__box-content">
+            <h1 class="promo__title">Открой мир робототехники!</h1>
+            <h2 class="promo__subtitle">Профессиональные эксперты, обзоры новинок в мире робототехники, живое общение
+              с соратниками, с экспертами разных стран.
+            </h2>
+            <form class="form-registration" action="">
+              <p class="form-registration__title">Регистрация</p>
+              <input class="form-registration__input" type="text">
+              <input class="form-registration__input" type="text">
+              <div class="form-registration__btn">
+                <a class="form-registration__link" href="#">Создать аккаунт</a>
+              </div>
+              <p class="form-registration__text">или через</p>
+              <div class="icons">
+                <button><picture><source srcset="img/google.webp" type="image/webp"><img src="img/google.png" alt="Google"></picture></button>
+                <button><picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="Facebook"></picture></button>
+                <button><picture><source srcset="img/vk.webp" type="image/webp"><img src="img/vk.png" alt="ВКонтакте"></picture></button>
+              </div>
+            </form>
+          </div>
+          <div class="promo__box-img">
+            <img src="img/user.svg" alt="Картинка">
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="offer">
+      <div class="container">
+        <div class="offer__inner">
+          <img class="offer__img" src="img/frame.svg" alt="Картинка">
+          <h2 class="title title--padding">Что мы предлагаем</h2>
+          <div class="offer__boxs">
+            <div class="offer__box offer__box-1">
+              <h3 class="offer__box-title">Учебные материалы по робототехнике</h3>
+              <picture><source srcset="img/offer/robot.webp" type="image/webp"><img class="offer__box-img" src="img/offer/robot.png" alt="Картинка"></picture>
+            </div>
+  
+            <div class="offer__box offer__box-2">
+              <h3 class="offer__box-title">Учебные материалы по электронике</h3>
+              <picture><source srcset="img/offer/electronics.webp" type="image/webp"><img class="offer__box-img" src="img/offer/electronics.png" alt="Картинка"></picture>
+            </div>
+  
+            <div class="offer__box offer__box-3">
+              <h3 class="offer__box-title">Учебные материалы по программированию</h3>
+              <picture><source srcset="img/offer/programming.webp" type="image/webp"><img class="offer__box-img" src="img/offer/programming.png" alt="Картинка"></picture>
+            </div>
+  
+            <div class="offer__box offer__box-4">
+              <h3 class="offer__box-title">Вебинары и онлайн уроки</h3>
+              <picture><source srcset="img/offer/lessons.webp" type="image/webp"><img class="offer__box-img" src="img/offer/lessons.png" alt="Картинка"></picture>
+            </div>
+  
+            <div class="offer__box offer__box-5">
+              <h3 class="offer__box-title">Общение с профессионалами</h3>
+              <picture><source srcset="img/offer/communication.webp" type="image/webp"><img class="offer__box-img" src="img/offer/communication.png" alt="Картинка"></picture>
+            </div>
+  
+            <div class="offer__box offer__box-6">
+              <h3 class="offer__box-title">Инструкции к роботам</h3>
+              <picture><source srcset="img/offer/instruction.webp" type="image/webp"><img class="offer__box-img" src="img/offer/instruction.png" alt="Картинка"></picture>
+            </div>
+          </div>
+        </div>
+  
+        <div class="materials">
+          <div class="materials__box-img">
+            <picture><source srcset="img/material.webp" type="image/webp"><img class="materials__img" src="img/material.png" alt="Картинка ноутбука"></picture>
+          </div>
+          <div class="materials__content">
+            <h2 class=" subtitle materials__subtitle">Дидактические материалы</h2>
+            <img class="offer__img" src="img/frame.svg" alt="Картинка">
+            <p class="main__text">Мы разработали и систематизировали учебные материалы по робототехнике, электронике и
+              программированию. Материалы доступны для ознакомления всем зарегистрированным пользователям.</p>
+            <div class="materials__btn">
+              <button href="#" class="header__btn-registration modal-btn"
+                data-path="registration">Зарегистрироваться</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="qualification">
+          <div class="qualification__box-img">
+            <picture><source srcset="img/qualification.webp" type="image/webp"><img class="qualification__img" src="img/qualification.png" alt="Картинка ноутбука"></picture>
+          </div>
+          <div class="qualification__content">
+            <h2 class=" subtitle qualification__subtitle">Повышайте квалификацию с нами</h2>
+            <img class="offer__img" src="img/frame.svg" alt="Картинка">
+            <p class="main__text">Наши эксперты регулярно проводят обучающие вебинары, а на самом портале вы найдете
+              множество инструкций к роботам.</p>
+          </div>
+        </div>
+  
+        <div class="professional">
+          <div class="professional__box-img">
+            <picture><source srcset="img/professional.webp" type="image/webp"><img class="professional__img" src="img/professional.png" alt="Картинка ноутбука"></picture>
+          </div>
+          <div class="professional__content">
+            <h2 class=" subtitle professional__subtitle">От новичка к профессионалу</h2>
+            <img class="offer__img" src="img/frame.svg" alt="Картинка">
+            <p class="main__text">Наша учебная программа охватывает все возрастные группы учащихся и может быть введена на
+              любом этапе школьного образования.</p>
+          </div>
+        </div>
+  
+        <div class="limitation">
+          <div class="limitation__box-img">
+            <picture><source srcset="img/limitation.webp" type="image/webp"><img class="limitation__img" src="img/limitation.png" alt="Картинка ноутбука"></picture>
+          </div>
+          <div class="limitation__content">
+            <h2 class="subtitle limitation__subtitle">Без ограничений</h2>
+            <img class="offer__img" src="img/frame.svg" alt="Картинка">
+            <p class="main__text">Наша компетенция «гуманоидная робототехника» представлена на федеральном конкурсе
+              профессионального мастерства для людей с инвалидностью «Абилимпикс».</p>
+          </div>
+        </div>
+  
+        <div class="confederate">
+          <div class="confederate__box-img">
+            <picture><source srcset="img/confederate.webp" type="image/webp"><img class="confederate__img" src="img/confederate.png" alt="Картинка ноутбука"></picture>
+          </div>
+          <div class="confederate__content">
+            <h2 class="subtitle confederate__subtitle">Найдите единомышленников</h2>
+            <img class="offer__img" src="img/frame.svg" alt="Картинка">
+            <p class="main__text">Знакомьтесь с увлеченными робототехникой, обменивайтесь опытом и реализуйте совместные
+              идеи.</p>
+            <div>
+              <button class="btn-pop modal-btn" data-path="registration">Вступить в клуб</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="product">
+      <div class="container">
+        <div class="product__inner">
+          <img class="offer__img" src="img/frame.svg" alt="Картинка">
+          <h2 class="title title--padding">Наши продукты</h2>
+          <div class="swiper slide">
+            <div class="swiper-wrapper slide__wrapper">
+
+              <div class="swiper-slide slide__box slide__box--purple">
+                <img class="swiper__img" src="img/content/product/marti.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Робот Марти</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+
+              <div class="swiper-slide slide__box slide__box--red">
+                <img class="swiper__img" src="img/content/product/games.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Разработка игр</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+
+              <div class="swiper-slide slide__box slide__box--blue">
+                <img class="swiper__img" src="img/content/product/marketing.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Интернет маркетинг</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+              
+              <div class="swiper-slide slide__box slide__box--orange">
+                <img class="swiper__img" src="img/content/product/web-development1.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Веб-разработка</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+
+              <div class="swiper-slide slide__box slide__box--light-blue">
+                <img class="swiper__img" src="img/content/product/web-development2.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Веб-разработка</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+              
+              <div class="swiper-slide slide__box slide__box--pink">
+                <img class="swiper__img" src="img/content/product/web-development3.svg" alt="Картинка Робот Марти">
+                <h3 class="slide__title">Веб-разработка</h3>
+                <h4 class="slide__subtitle">Умный робот для обучения программированию</h4>
+              </div>
+            </div>
+            <div class="slider__box-buttons">
+              <div class="slider__btn swiper-button-next"></div>
+              <div class="slider__btn swiper-button-prev"></div>
+            </div>
+          </div>
+          
+       
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__container-logo">
+        <picture><source srcset="img/logo-violet.webp" type="image/webp"><img src="img/logo-violet.png" alt="Логотип"></picture>
+      </div>
+      <div class="footer__container-text">
+        <p class="footer__text-small"><small>2020 ©Все права защищены</small></p>
+        <p class="footer__text-small"><small>Политика конфиденциальности</small></p>
+      </div>
+
+      <ul class="footer-nav__list">
+        <li class="footer-nav__item">
+          <a class="footer-nav__link" href="#">Войти</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link" href="#">Регистрация</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link" href="#">Что мы предлагаем</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link" href="#">Наши подукты</a>
+        </li>
+      </ul>
+
+      <div class="icon">
+        <p class="icon__title">Соцсети</p>
+        <ul class="icon__list">
+          <li class="icon__item">
+            <a class="icon__link" href="#">
+              <img class="icon__img" src="img/content/footer-icon/facebook.svg" alt="Facebook">
+            </a>
+          </li>
+          <li class="icon__item">
+            <a class="icon__link" href="#">
+              <img src="img/content/footer-icon/vk.svg" alt="ВКонтакте">
+            </a>
+          </li>
+          <li class="icon__item">
+            <a class="icon__link" href="#">
+              <img src="img/content/footer-icon/instagram.svg" alt="Instagram">
+            </a>
+          </li>
+          <li class="icon__item">
+            <a class="icon__link" href="#">
+              <img src="img/content/footer-icon/youtube.svg" alt="YouTube">
+            </a>
+          </li>
+          <li class="icon__item">
+            <a class="icon__link" href="#">
+              <img src="img/content/footer-icon/telegramm.svg" alt="Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="js/app.min.js?_v=20230301022655"></script>
+</body>
+</html>
